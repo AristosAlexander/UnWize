@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ultraviolet Proxy</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🔮 Ultraviolet Proxy</h1>
+    <p class="subtitle">Fast & Secure Web Proxy</p>
+    
+    <form id="proxy-form">
+      <input type="text" id="url-input" placeholder="Enter URL or search..." autofocus>
+      <button type="submit">Go</button>
+    </form>
+    
+    <div class="quick-links">
+      <button class="quick-link" data-url="https://www.google.com">Google</button>
+      <button class="quick-link" data-url="https://www.youtube.com">YouTube</button>
+      <button class="quick-link" data-url="https://discord.com/app">Discord</button>
+      <button class="quick-link" data-url="https://www.reddit.com">Reddit</button>
+    </div>
+    
+    <p class="status">Status: <span id="sw-status">Loading...</span></p>
+  </div>
+
+  <script src="/baremux/index.js"></script>
+  <script src="/script.js"></script>
+</body>
+</html>
